@@ -1,0 +1,74 @@
+body{
+    color: #999;
+    background-color: #f3e9e5; 
+    font-size: 10px;
+    font-family: 'Roboto';
+}
+
+header,
+section {
+    font-size: 1.6rem;
+}
+
+header {
+    position: fixed;
+    padding: 14px;
+    border-bottom: 1px solid #999;
+    width: 100%;
+    background: rgba(128, 128, 128, 0.3);
+    z-index: 999;
+}
+
+.intro {
+    background: url('../images/intro.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo.text-left {
+    color: black;
+}
+
+.logo.text-right {
+    color: black;
+}
+
+.greetings {
+    padding: 10rem 1rem 50rem 1rem;
+}
+
+.greetings__textrow {
+    padding: 1rem 0 0 0;
+}
+
+.greetings__title {
+    margin-bottom: 1rem;
+    border-bottom: 0.1rem solid #fff;
+    margin-bottom: 1rem;
+}
+
+.flat-button {
+    font-weight: 600;
+    color: #999;
+    border-color:#999;
+    border-radius: 0;
+}
+
+.flat-button:hover {
+    font-weight: 600;
+    color: #be3738;
+    border-color: #be3738;
+}
+
+.desc, 
+.foto,
+.befo,
+.cont {
+    font-size: 1.8rem;
+    padding: 4rem;
+}
+
+.desc,
+.befo {
+    background-color: white;     
+}
